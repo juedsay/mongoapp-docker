@@ -7,7 +7,7 @@ services:
     ports:
       - "3000:3000"
     links:
-      - monguito
+      - mongoMC
     volumes:
       - .:/home/app
   monguito:
